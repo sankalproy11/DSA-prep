@@ -10,7 +10,7 @@ public class Main{
     }
 
     static class BinaryTree{
-        static int idx = -1;
+        static int idx;
 
         public Node buildTree(int[] nodes){
             idx = -1;
