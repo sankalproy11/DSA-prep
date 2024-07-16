@@ -29,6 +29,7 @@ public class Main{
             if(root == null) return;
             if(k == level){
                 System.out.print(root.data+" ");
+                return;
             }
             kthNodes(root.left, level+1, k);
             kthNodes(root.right, level+1, k);
