@@ -49,7 +49,7 @@ public class Main{
         public int minDistance(Node root, Node n1, Node n2){
             Node lca = lowestCommonAncestor(root, n1, n2);
             int dist1 = lcaDist(lca, n1);
-            int dist2 = lcaDist(lca, n1);
+            int dist2 = lcaDist(lca, n2);
             return dist1 + dist2;
         }
     }
